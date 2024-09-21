@@ -259,7 +259,7 @@ const Resume = () => {
                                                 <span className="text-white/60">{item.fieldName}:</span>
                                                 <span className="text-xl">{item.fieldValue}</span>
                                             </li>
-                                        )
+                                        );
                                     })}
                                 </ul>
                             </div>
@@ -269,7 +269,7 @@ const Resume = () => {
                 </Tabs>
             </div>
         </motion.div>
-    )
-}
+    );
+};
 
 export default Resume
