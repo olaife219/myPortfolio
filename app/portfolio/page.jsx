@@ -36,7 +36,7 @@ const projects = [
         github: "https://github.com/olaife219/acutigemotions.git",
     },
     {
-        num: "02",
+        num: "03",
         category: "fullstack",
         title: "Real Time Chat",
         description: "Built with the robust Django framework, this real-time chat application delivers seamless messaging, media sharing, private chats, and group conversations, combining powerful backend architecture with secure, scalable, and intuitive features for effortless communication.",
@@ -46,7 +46,7 @@ const projects = [
         github: "https://github.com/olaife219/railway.git",
     },
     {
-        num: "03",
+        num: "04",
         category: "fullstack",
         title: "Academic website",
         description: "I created a dynamic academic website designed to foster interactive learning and engagement. Tutors can easily upload video lectures, providing students with access to valuable educational content anytime, anywhere. Students can like, comment on, and bookmark videos to enhance their learning experience, facilitating discussions and allowing them to save key resources for future review. The platform combines a user-friendly interface with essential tools to support knowledge sharing and continuous learning, creating an enriching environment for both students and tutors.",
@@ -56,7 +56,7 @@ const projects = [
         github: "https://github.com/olaife219/Academic.git",
     },
     {
-        num: "04",
+        num: "05",
         category: "frontend",
         title: "Paypal Clone",
         description: "The PayPal Clone is a fully functional frontend application that replicates PayPal interface, with an added Peer-to-Peer (P2P) Money Transfer feature. Built entirely using HTML, CSS, and JavaScript, this project showcases a responsive design and smooth user experience. User data is securely collected and stored locally using Local Storage, eliminating the need for a backend server.",
@@ -66,7 +66,7 @@ const projects = [
         github: "https://github.com/olaife219/bankapp.git",
     },
     {
-        num: "05",
+        num: "06",
         category: "frontend",
         title: "Blog",
         description: "This is a Blog Website designed for users to explore and interact with blog posts. The project is fully frontend, built using HTML, CSS, and JavaScript, and features dynamic functionalities like liking post. The use of local storage eliminates the need for a backend, making it lightweight and fast. Blog posts, and likes are all stored directly in the browser, giving users a smooth and persistent experience",
@@ -76,7 +76,7 @@ const projects = [
         github: "https://github.com/olaife219/Blogg.git",
     },
     {
-        num: "06",
+        num: "07",
         category: "frontend",
         title: "Phone",
         description: "This is a feature-packed Phone Application designed to simulate key functionalities of a modern mobile device. Built entirely with HTML, CSS, and JavaScript, the app allows users to generate recharge card pins, recharge their balance directly in the app, and make phone calls by dialing numbers. It also includes a camera simulation feature for snapping pictures, and a gallery section where users can view their saved photos. All data, including generated recharge pins, balance, and photos, are stored in local storage, ensuring seamless functionality without the need for a backend.",
@@ -86,7 +86,7 @@ const projects = [
         github: "https://github.com/olaife219/phone.git",
     },
     {
-        num: "07",
+        num: "08",
         category: "frontend",
         title: "Shopping List",
         description: "This Shopping List Application is an intuitive web-based tool designed to manage and calculate shopping expenses effortlessly. Built with HTML, CSS, and JavaScript, the application enables users to, Add items to a shopping list by specifying the name, price, and quantity, Automatically calculate and display the subtotal for each item and the total cost of all items, Edit or delete items dynamically, with instant updates to the total cost,A clean and responsive design with functional buttons for managing the list. This project showcases dynamic form handling, DOM manipulation, and event-driven programming while maintaining a user-friendly interface.",
