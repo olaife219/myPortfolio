@@ -122,7 +122,7 @@ const Portfolio = () => {
                             <p className="text-white/60">{project.description}</p>
                             <ul className="flex gap-3">
                                 {project.stack.map((item, index)=> {
-                                    return <li key={index} className="text-lg text-accent">{item.name}{index !== project.stack.length - 1 && ","}</li>
+                                    return <li key={index} className="text-sm md:text-lg text-accent">{item.name}{index !== project.stack.length - 1 && ","}</li>
                                 })}
                             </ul>
                             <div className="border border-white/20"></div>
