@@ -120,7 +120,7 @@ const Portfolio = () => {
                             <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">{project.category} project</h2>
                             <h2>{project.title}</h2>
                             <p className="text-white/60">{project.description}</p>
-                            <ul className="flex gap-3">
+                            <ul className="flex gap-2 md:gap-3">
                                 {project.stack.map((item, index)=> {
                                     return <li key={index} className="text-sm md:text-lg text-accent">{item.name}{index !== project.stack.length - 1 && ","}</li>
                                 })}
