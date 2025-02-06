@@ -48,9 +48,9 @@ const experience = {
     description: "With experience in both front-end and back-end development, I have had the privilege to work with a diverse range of companies, users and tech firms.",
     items: [
         {
-            company: "Freelancing",
+            company: "TedPrime Hub",
             position: "Fullstack developer",
-            duration: "Present",
+            duration: "2024 - Present",
         },
         {
             company: "Acutig Emotions",
