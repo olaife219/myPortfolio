@@ -38,7 +38,7 @@ export async function POST(req) {
           </div>
 
           <!-- Content -->
-          <div style="padding: 40px;">
+          <div style="padding: 20px;">
             
             <!-- Contact Info Card -->
             <div style="background-color: #f8fafc; border-radius: 8px; padding: 24px; margin-bottom: 24px; border-left: 4px solid #667eea;">
@@ -105,7 +105,7 @@ export async function POST(req) {
 
             <!-- Action Buttons -->
             <div style="text-align: center; margin: 32px 0;">
-              <a href="mailto:${email}" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 14px 28px; text-decoration: none; border-radius: 8px; font-weight: 600; margin-right: 12px; box-shadow: 0 4px 6px rgba(102, 126, 234, 0.25); transition: all 0.3s ease;">
+              <a href="mailto:${email}" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 14px 28px; text-decoration: none; border-radius: 8px; font-weight: 600; margin-right: 12px; box-shadow: 0 4px 6px rgba(102, 126, 234, 0.25); transition: all 0.3s ease; margin-bottom: 12px;">
                 📧 Reply via Email
               </a>
               <a href="tel:${phone}" style="display: inline-block; background-color: #10b981; color: white; padding: 14px 28px; text-decoration: none; border-radius: 8px; font-weight: 600; box-shadow: 0 4px 6px rgba(16, 185, 129, 0.25); transition: all 0.3s ease;">
