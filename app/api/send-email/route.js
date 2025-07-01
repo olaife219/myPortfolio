@@ -58,7 +58,7 @@ export async function POST(req) {
                 </div>
 
                 <div style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #e2e8f0;">
-                  <div style="background-color: #10b981; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 16px; font-size: 12px;">
+                  <div style="background-color: #10b981; color: white; min-width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 16px; font-size: 12px;">
                     ✉️
                   </div>
                   <div>
@@ -70,7 +70,7 @@ export async function POST(req) {
                 </div>
 
                 <div style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #e2e8f0;">
-                  <div style="background-color: #f59e0b; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 16px; font-size: 12px;">
+                  <div style="background-color: #f59e0b; color: white; min-width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 16px; font-size: 12px;">
                     📞
                   </div>
                   <div>
@@ -82,7 +82,7 @@ export async function POST(req) {
                 </div>
 
                 <div style="display: flex; align-items: center; padding: 12px 0;">
-                  <div style="background-color: #8b5cf6; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 16px; font-size: 12px;">
+                  <div style="background-color: #8b5cf6; color: white; min-width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 16px; font-size: 12px;">
                     🔧
                   </div>
                   <div>
