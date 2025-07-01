@@ -55,6 +55,7 @@ const Contact = () => {
                 theme: "colored",
                 transition: Slide,
             });
+            setLoading(false);
             return;
         }
 
