@@ -25,7 +25,7 @@ const info = [
     {
         icon: <FaMapMarkedAlt />,
         title: "Address",
-        description: "No 4, oluwatedo zone 2, oloko, apata, ibadan"
+        description: "Ibadan, Oyo State, Nigeria",
     }
 ];
 
