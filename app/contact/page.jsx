@@ -122,7 +122,7 @@ const Contact = () => {
                                 <Input type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email address" />
                                 <Input type="phone" onChange={(e) => setPhone(e.target.value)} placeholder="Phone number" />
                             </div>
-                            <Select onValueChange={(value) => setService(value)}>
+                            <Select onChange={(e) => setService(e.target.value)}>
                                 <SelectTrigger className="w-full">
                                     <SelectValue placeholder="Select a service" />
                                 </SelectTrigger>

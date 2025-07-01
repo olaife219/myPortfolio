@@ -48,7 +48,7 @@ export async function POST(req) {
               
               <div style="display: grid; gap: 16px;">
                 <div style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #e2e8f0;">
-                  <div style="background-color: #667eea; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 16px; font-size: 14px; font-weight: bold;">
+                  <div style="background-color: #667eea; color: white; min-width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-right: 16px; font-size: 14px; font-weight: bold;">
                     👤
                   </div>
                   <div>
