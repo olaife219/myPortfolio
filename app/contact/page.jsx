@@ -123,14 +123,14 @@ const Contact = () => {
                                 <Input type="email" onChange={(e) => setEmail(e.target.value)} placeholder="Email address" />
                                 <Input type="phone" onChange={(e) => setPhone(e.target.value)} placeholder="Phone number" />
                             </div>
-                            <Select onChange={(e) => setService(e.target.value)}>
+                            <Select onValueChange={(value) => setService(value)}>
                                 <SelectTrigger className="w-full">
                                     <SelectValue placeholder="Select a service" />
                                 </SelectTrigger>
                                 <SelectContent>
                                     <SelectGroup>
                                         <SelectLabel>Select a service</SelectLabel>
-                                        <SelectItem value="est">Web Developer</SelectItem>
+                                        <SelectItem value="Web Developer">Web Developer</SelectItem>
                                     </SelectGroup>
                                 </SelectContent>
                             </Select>
